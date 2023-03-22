@@ -83,6 +83,15 @@
   padding: 5px 10px;
 }
 
+.empresa-link {
+  text-decoration: none;
+  color: #141414;
+}
+
+.empresa-link :visited {
+  color: inherit;
+}
+
 @media (max-width: 800px) {
   .experiencia {
     grid-template-columns: 1fr;
